@@ -1,0 +1,5 @@
+<div ng-repeat="post in posts track by $index">
+    <p>{{post.data.title}}</p>
+    <img src="{{ post.data.thumbnail }}" alt="">
+    <p>{{post.data.author}}</p>
+ </div>
